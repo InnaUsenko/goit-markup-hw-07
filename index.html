@@ -51,21 +51,40 @@
             </li>
           </ul>
         </address>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- MAIN BLOCK -->
     <main class="main">
       <!--  HERO IMAGE - SECTION 1 -->
-      <section class="hero-image">
+      <!-- <section class="hero-image">
         <div class="container">
           <h1 class="hero-header">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
       <!-- SECTION 2 -->
-      <section class="section-one">
+      <!-- <section class="section-one">
         <div class="container">
           <h2 hidden class="features-header">Features</h2>
           <ul class="features list">
@@ -119,9 +138,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- SECTION 3 -->
-      <section class="section-two">
+      <!-- <section class="section-two">
         <div class="container">
           <h2 class="images-header">What are we doing</h2>
           <ul class="images list">
@@ -151,9 +170,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- SECTION 4 -->
-      <section class="section-three">
+      <!-- <section class="section-three">
         <div class="container">
           <h2 class="team-cards-header">Our Team</h2>
           <ul class="team-cards list">
@@ -327,9 +346,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- SECTION 5 -->
-      <section class="section-four">
+      <!-- <section class="section-four">
         <div class="container">
           <h2 class="customers-header">Customers</h2>
           <ul class="customers list">
@@ -377,10 +396,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- FOOTER -->
-    <footer class="foo">
+    <!-- <footer class="foo">
       <div class="container foo-conteiner">
         <div class="foo-content">
           <a href="./index.html" class="foo-logo link">
@@ -423,9 +442,9 @@
               </a>
             </li>
           </ul>
-        </div>
-        <!-- FOO-FORM-SUBSCRIBE -->
-        <div class="foo-form-block">
+        </div> -->
+    <!-- FOO-FORM-SUBSCRIBE -->
+    <!-- <div class="foo-form-block">
           <strong class="foo-title"> Subscribe </strong>
           <form class="foo-form" name="foo-form">
             <input
@@ -445,7 +464,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
@@ -553,7 +572,71 @@
       </div>
     </div>
 
+    <!-- BURGER MOB MENU WINDOW -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="modal-close-btn menu-toggle js-close-menu" type="button">
+        <svg class="modal-close-btn-icon" width="8px" height="8px">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li><a href="" class="link">Studio</a></li>
+        <li><a href="" class="link">Portfolio</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+      </ul>
+      <ul class="mobile-address list">
+        <li class="t-mail">
+          <a href="mailto:info@devstudio.com" class="contact-links link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="t-phone">
+          <a href="tel:+110001111111" class="contact-links link"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+      </ul>
+      <ul class="foo-social-media-ul list">
+        <li class="foo-social-media-item">
+          <a class="foo-social-media-link" href="#">
+            <svg class="foo-social-media-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="foo-social-media-item">
+          <a class="foo-social-media-link" href="#">
+            <svg class="foo-social-media-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="foo-social-media-item">
+          <a class="foo-social-media-link" href="#">
+            <svg class="foo-social-media-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="foo-social-media-item">
+          <a class="foo-social-media-link" href="#">
+            <svg class="foo-social-media-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <!-- JS SCRIPT -->
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
