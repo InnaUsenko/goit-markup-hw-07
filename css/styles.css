@@ -1008,7 +1008,7 @@ input[type='checkbox']:checked
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 32px;
+  padding: 40px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -1034,7 +1034,7 @@ input[type='checkbox']:checked
 
 .mobile-menu {
   padding: 0;
-  margin: 40px 40px 284px 40px;
+  margin: 40px 40px 284px 0px;
   list-style: none;
 }
 .mobile-menu > li {
@@ -1053,10 +1053,6 @@ input[type='checkbox']:checked
 
   color: #2e2f42;
   text-decoration: none;
-}
-
-.mobile-address-ul {
-  margin-left: 40px;
 }
 
 .t-mail {
@@ -1088,10 +1084,10 @@ input[type='checkbox']:checked
 
   color: var(--primary-brand);
 }
+
 .mobile-social-media-ul {
   display: flex;
   gap: 56px;
-  margin-left: 40px;
 }
 .mobile-social-media-item {
   width: 40px;
@@ -1112,4 +1108,19 @@ input[type='checkbox']:checked
   background-color: var(--pressed-state);
   bottom: 0px;
   left: 0;
+}
+
+@media (min-width: 320px) and (max-width: 413px) {
+  .t-phone > .mobile-contact-links {
+    font-size: 30px;
+  }
+  .mobile-social-media-ul {
+    gap: 44px;
+  }
+}
+
+@media (min-height: 667px) and (max-height: 840px) {
+  .mobile-menu {
+    margin: 40px 40px 150px 0px;
+  }
 }
