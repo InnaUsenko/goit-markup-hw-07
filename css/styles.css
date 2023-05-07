@@ -1092,7 +1092,8 @@ input[type='checkbox']:checked
   text-decoration: none;
 }
 
-.t-mail {
+.mobile-address-ul .t-mail {
+  margin-bottom: 48px;
 }
 .t-mail > .mobile-contact-links {
   font-family: 'Roboto';
@@ -1105,7 +1106,8 @@ input[type='checkbox']:checked
 
   color: var(--text);
 }
-.t-phone {
+.mobile-address-ul .t-phone {
+  margin-bottom: 40px;
 }
 .t-phone > .mobile-contact-links {
   font-family: 'Roboto';
@@ -1123,6 +1125,7 @@ input[type='checkbox']:checked
 .mobile-social-media-ul {
   display: flex;
   gap: 56px;
+  margin-bottom: 40px;
 }
 .mobile-social-media-item {
   width: 40px;
