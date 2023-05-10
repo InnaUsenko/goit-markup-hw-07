@@ -896,6 +896,9 @@ img {
 }
 /* FOOTER-FORM */
 
+.foo-form-block {
+  width: calc(2 * (100% - 1 * 24px) / 2);
+}
 /* Phone styles & > */
 .foo-form {
   margin-top: 16px;
@@ -913,7 +916,7 @@ img {
 }
 
 .foo-form-input {
-  width: 264px;
+  width: 100%;
   height: 40px;
   padding: 8px 16px;
   border: 1px solid #ffffff;
@@ -921,6 +924,13 @@ img {
   border-radius: 4px;
   color: #ffffff;
   background: var(--dark);
+}
+
+/* Tablet styles & >  */
+@media only screen and (min-width: 768px) {
+  .foo-form-input {
+    width: calc(100% / 2);
+  }
 }
 .foo-form-input::placeholder {
   font-family: 'Roboto';
