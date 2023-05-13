@@ -853,6 +853,7 @@ img {
   .foo-conteiner {
     align-items: baseline;
     justify-content: flex-start;
+    margin: 0 92px;
   }
 }
 /* Destop styles & >  */
@@ -862,6 +863,7 @@ img {
     align-items: baseline;
     flex-wrap: nowrap;
     gap: 0;
+    margin: 0;
   }
 }
 
