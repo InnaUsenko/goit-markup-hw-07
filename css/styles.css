@@ -658,8 +658,25 @@ img {
   padding: 32px 0;
 }
 
-.employees > .feature-header {
+.employees-header {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.employees-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
 
 .social-media {
