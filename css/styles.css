@@ -757,6 +757,7 @@ img {
 @media only screen and (min-width: 768px) {
   .customers {
     column-gap: 24px;
+    margin: 0 92px;
   }
 }
 /* Destop styles & >  */
@@ -765,6 +766,7 @@ img {
     flex-wrap: nowrap;
     row-gap: 0;
     column-gap: 24px;
+    margin: 0;
   }
 }
 
