@@ -405,7 +405,7 @@ img {
 @media only screen and (min-width: 1158px) {
   .section-one {
     padding-top: 120px;
-    /* padding-bottom: 120px; */
+    padding-bottom: 120px;
   }
 }
 
@@ -682,8 +682,15 @@ img {
 }
 /* SECTION 5 */
 .section-four {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+/* Destop styles & >  */
+@media only screen and (min-width: 1158px) {
+  .section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
 
 /* Phone styles & > */
