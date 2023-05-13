@@ -199,7 +199,7 @@ img {
   color: var(--pressed-state);
 }
 
-/* OUR ADDRESS hide for mobile, show for other devicec */
+/* OUR ADDRESS hide for mobile, show for other devices */
 /* Phone styles & > */
 .our-address {
   display: none;
@@ -320,6 +320,7 @@ img {
 /* Desktop screen */
 @media screen and (min-width: 769px) {
   .hero-image {
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(
