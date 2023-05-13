@@ -941,6 +941,12 @@ img {
     width: calc(100% / 2);
   }
 }
+/* Destop styles & >  */
+@media only screen and (min-width: 1158px) {
+  .foo-form-input {
+    width: 264px;
+  }
+}
 .foo-form-input::placeholder {
   font-family: 'Roboto';
   font-style: normal;
