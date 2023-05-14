@@ -235,6 +235,9 @@ img {
     display: flex;
     gap: 40px;
   }
+  .address-group > .t-mail {
+    margin-bottom: 0;
+  }
 }
 
 /* Phone styles & > */
@@ -249,7 +252,7 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: var(--pressed-state);
+    color: var(--text);
   }
 }
 /* Destop styles & >  */
@@ -258,7 +261,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text);
     transition: color var(--tr-dur-func);
   }
 }
