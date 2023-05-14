@@ -268,7 +268,9 @@ img {
 .contact-links:focus {
   color: var(--pressed-state);
 }
-
+.menu-toggle svg {
+  stroke: var(--dark);
+}
 /* HERO IMAGE -  SECTION 1 */
 
 /* Mobile screen */
