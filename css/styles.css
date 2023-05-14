@@ -1536,4 +1536,20 @@ input[type='checkbox']:checked
   .mobile-social-media-ul {
     gap: 24px;
   }
+
+  .modal {
+    width: 320px;
+    padding: 72px 8px 24px 8px;
+  }
+  .modal-title {
+    width: 304px;
+  }
+
+  .modal-form-input {
+    width: 304px;
+  }
+
+  .modal-form-message {
+    width: 304px;
+  }
 }
